@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* > * {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+}
+
+:root {
+  --text-color: #458744;
+  --pri-color:#23da95;
+  --sec-color:#2399aa
+  --footer-bg-color: #0a120c;
+  --footer-color: #fff;
+}
+
+.icon{
+    border: 1px black;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #e3c6c6;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px  #00000050;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.connect-socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    font-size: 3.0rem;
+}
+.greet-name{
+    font-size: 2.5rem;    
+    text-transform: none;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.role-name{
+    font-size: 4.0rem;    
+    text-transform: capitalize;
+	background: linear-gradient(to right, var(--pri-color) 0%, #2399aa 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.objective{
+    text-align: center;
+    text-transform: none;
+    font-size: medium;
+    font-weight: 500;
+
+}
+.hero{
+    
+    min-height: 100vh;
+    text-align: center;
+    text-indent: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.main {
+  padding: 2.4rem 2rem 0rem;
+
+}
+.tabs {
+  display: flex;
+}
+
+.tab {
+  padding-left: 0.9rem;
+  list-style: none;
+  font-weight: bold;
+
+  font-size: 1.1rem;
+}
+
+.navbar {
+  background-color: #f1e9e9;
+  display: flex;
+  padding: 1.0rem 2rem 1.0rem;
+  z-index: 1000;
+  
+  padding-right: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-position {
+  position: fixed;
+  width: 100%;
+  z-index: 700;
+  box-shadow: 10px 10px 10px 10px #0a120c20;
+}
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+}
+a:hover , a:focus {
+  color: #458744;
+}
+a:active {
+  color: red;
+}
+footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--footer-color);
+  background: var(--footer-bg-color);
+}
+
+p {
+  /* width: 50ch; */
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: justify;
+  line-height: 1.7rem;
+  letter-spacing: 0.0125rem;
+  word-spacing: 0.0125rem;
+  font-display: initial;
+  font-style: oblique;
+}
+
+/* Hovers */
+.tab:hover {
+}
